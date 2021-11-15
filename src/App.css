@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    font-family: 'Roboto Mono', monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: #121212;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+h2 {
+    color: whitesmoke !important;
+}
+
+ul {
+    list-style: none;
+}
+
+.imgwrapper {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: whitesmoke;
+}
+
+.coinlist-image {
+    width: 35px;
   }
+  
+.coinlist-item {
+    display: flex;
+}
+  
+.coinsummary {
+    background-color: #1D1D1D !important;
+    border-color: whitesmoke !important;
+    border-style: solid !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.coinlist-item {
+    background-color: whitesmoke !important;
+    color: black !important;
+}
+  
+.coin-data-category {
+    font-size: 10px;
+}
+  
+.delete-icon {
+    display: none;
+    position: absolute;
+    right: 10px;
+}
+  
+.coin:hover .delete-icon {
+    display: block;
 }
 
-.App-link {
-  color: #61dafb;
+
+.btn {
+    color: whitesmoke;
+    background-color: #1D1D1D;
+    border-color: whitesmoke;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.btn:active {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.btn:focus {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.gbtn {
+    max-width: 50px;
+}
+
+.sbtn {
+    max-width: 120px;
+}
+
+.coin-data-category {
+    font-size: 12px;
+}
+
+.loading {
+    color: whitesmoke;
+}
+
+@media screen and (min-width: 767px) {
+    .container {
+        max-width: 600px;
+    }   
+}
+
+@media screen and (max-width: 440px) {
+    .delete-icon {
+        right: 5px;
+    }  
 }
