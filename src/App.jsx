@@ -13,8 +13,8 @@ export const App = () => {
             <BrowserRouter>
                 <Header />
                 <Routes>
-                    <Route exact path="/" element={<CoinSummaryPage />} />
-                    <Route path="/coins/:id" element={<CoinDetailPage />} />
+                    <Route exact path="/coin-watch" element={<CoinSummaryPage />} />
+                    <Route path="/coin-watch/coins/:id" element={<CoinDetailPage />} />
                 </Routes>
             </BrowserRouter>  
         </WatchListContextProviver>
