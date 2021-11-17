@@ -13,26 +13,26 @@ const Footer = () => {
           <div className='social-media-wrap'>
             <small className='website-rights'></small>
             <div className='social-icons'>
-              <Link
+              <a
                 className='social-icon-link'
-                to={
+                href={
                   '//www.github.com/nnorx'
                 }
                 target='_blank'
                 aria-label='Github'
               >
                 <FaGithub />
-              </Link>
-              <Link
+              </a>
+              <a
                 className='social-icon-link'
-                to={
+                href={
                   '//www.nicknorcross.com/'
                 }
                 target='_blank'
                 aria-label='NickNorcross.com'
               >
                 <img className='nn-logo' src={logo} alt="" />
-              </Link>
+              </a>
             </div>
           </div>
         </section>
