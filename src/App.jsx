@@ -10,7 +10,7 @@ export const App = () => {
     return (
     <div className="container">
         <WatchListContextProviver>
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <Header />
                 <Routes>
                     <Route exact path="/" element={<CoinSummaryPage />} />
