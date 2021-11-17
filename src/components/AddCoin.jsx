@@ -24,7 +24,7 @@ const AddCoin = () => {
         "cosmos",
         "vechain",
         "the-graph",
-        "binance Coin",
+        "binancecoin",
         "blockstack"
 
     ];
