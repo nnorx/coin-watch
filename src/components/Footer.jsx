@@ -20,6 +20,7 @@ const Footer = () => {
                 }
                 target='_blank'
                 aria-label='Github'
+                rel="noopener"
               >
                 <FaGithub />
               </a>
@@ -30,6 +31,7 @@ const Footer = () => {
                 }
                 target='_blank'
                 aria-label='NickNorcross.com'
+                rel="noopener"
               >
                 <img className='nn-logo' src={logo} alt="" />
               </a>
